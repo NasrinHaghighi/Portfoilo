@@ -4,6 +4,10 @@ import Logo from './Logo'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
+
+
+import Loader from 'react-loaders'
+
 function Home() {
 
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,6 +38,7 @@ function Home() {
      }, [])
   
   return (
+    <>
     <div className='conatiner home-page'>
          <div className="text-zone">
              <h1>
@@ -62,6 +67,8 @@ function Home() {
     </div>
     <Logo />
     </div>
+    <Loader type='pacman'/>
+    </>
   )
 }
 

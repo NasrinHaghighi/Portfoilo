@@ -10,8 +10,19 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  
+  import css from '../../public/images/css.svg'
+  import js from '../../public/images/javascript.svg'
+  import next from '../../public/images/next.svg'
+  import html from '../../public/images/html.svg'
+  import bootstrap from '../../public/images/bootstrap.svg'
+  import jquery from '../../public/images/jquery.svg'
+  import jira from '../../public/images/jira.svg'
+  import redux from '../../public/images/redux.svg'
+  import react3 from '../../public/images/react-2.svg'
 
- 
+
+  import Loader from 'react-loaders'
 
   
 function About() {
@@ -24,6 +35,7 @@ function About() {
           return () => clearTimeout(timer);
      }, [])
   return (
+    <>
     <div className="container about-page">
     <div className="text-zone">
         <h1>
@@ -47,14 +59,20 @@ function About() {
     </div>
     <div className="skills">
       
-        <div> <FontAwesomeIcon icon={faHtml5} color="#F06529"   size = '10x'/></div>
-        <div> <FontAwesomeIcon icon={faCss3} color="#28A4D9" size = '10x' mask="fa-regular fa-circle"/></div>
-        <div> <FontAwesomeIcon icon={faReact} color="#5ED4F4" size = '10x'/></div>
-        <div> <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" size = '10x'/></div>
-        <div> <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" size = '10x'/></div>
-        {/* <div><img src={redux}/> </div> */}
+      
+        <div> <img src={html} /><span>Html</span></div>
+        <div> <img src={css} /><span>Css</span></div>
+        <div> <img src={js} /><span>JavaScript</span></div>
+        <div> <img src={react3} /><span>React</span></div>
+        <div> <img src={redux} /><span>Redux</span></div>
+        <div> <img src={next} /><span>Next</span></div>
+        <div> <img src={bootstrap} /><span>Bootestrap</span></div>
+        <div> <img src={jquery} /><span>JQuery</span></div>
+        <div> <img src={jira} /><span>Jira</span></div>
     </div>
     </div>
+    <Loader type='pacman'/>
+    </>
   )
 }
 
