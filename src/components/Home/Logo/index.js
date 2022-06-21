@@ -1,12 +1,11 @@
 import React from 'react'
 import './index.scss'
+import banner from '../../../public/images/js.jpg'
 
 function Logo() {
   return (
     <div className='logo-conatiner'>
-        <h1>
-        fff
-        </h1>
+       <img src={banner}/>
     </div>
   )
 }

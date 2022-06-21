@@ -42,11 +42,11 @@ function Home() {
     <div className='conatiner home-page'>
          <div className="text-zone">
              <h1>
-             <span className={letterClass}>H</span>
+             {/* <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
+            <span className={`${letterClass} _14`}>'m</span> */}
                  <br/>
                
               
@@ -56,9 +56,11 @@ function Home() {
                  idx={15}
                   />
                      <br />
+                     <br />
                 <AnimatedLetters
                  letterClass={letterClass}
                 strArray={jobArray}
+               
                  idx={22}
             />
              </h1>
@@ -66,6 +68,8 @@ function Home() {
              <Link to='contact' className='flat-button'> CONTACT ME</Link>
     </div>
     <Logo />
+
+   
     </div>
     <Loader type='pacman'/>
     </>
