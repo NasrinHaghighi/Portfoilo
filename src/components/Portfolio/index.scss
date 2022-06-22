@@ -1,17 +1,25 @@
 .main {
-    width: 100%;
+    width: 95%;
     height: 100%;
     top: 0;
-    padding-top: 15%;
-    margin-left: 0;
+    padding-top: 18%;
+    margin-left: 200px;
     position: absolute;
     right: 0;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+  
+}
+
+.carosel {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
 }
 
 .video {
@@ -95,3 +103,9 @@
     top: 30% !important;
     z-index: 1;
 }
+.carosel{
+ 
+   
+
+}
+  
