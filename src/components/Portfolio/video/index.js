@@ -1,16 +1,20 @@
-import React ,{useState} from 'react'
+import React ,{useState, useEffect, useRef} from 'react'
 import './index.scss'
 ///import git from '../../public/images/git1.png'
 import info from '../../../public/images/info.png'
 import git from '../../../public/images/git1.png'
 
-
+import { Button, Popover } from 'antd';
 
 
 const Video =({item}) =>{
-    console.log(item)
+  
 /////////////
-
+const content = (
+  <>
+    <p>{item.dis}</p>
+   </>
+);
 
 //////////
   return (
@@ -23,11 +27,17 @@ const Video =({item}) =>{
 
 </video> 
     <div className='info'>
-      
-      <div className='icon iconMoreInfo'><img src={info} /></div> 
-     <div className='icon'> <a href={item.link}>  <img src={git} /> </a></div> 
+    <Popover placement="bottom" content={content} color="#ffd700">
+      <Button className='icon'><img src={info} /></Button>
+    </Popover>
+ 
+      <Button className='icon'><a href={item.link}>  <img src={git}/></a></Button>
+
+    
+      {/* //<div className='icon'><img src={info} /></div> 
+     <div className='icon'><a href={item.link}>  <img src={git}/></a></div>  */}
       </div>
-      <div className={'moreInfo'}>{item.dis}</div>
+      {/* <div className={'moreInfo'}>{item.dis}</div> */}
 </div >
 
 

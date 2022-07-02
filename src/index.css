@@ -8,8 +8,36 @@ body {
     color: #444;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #022c43;
+    background: #022c43 !important;
     overflow: hidden;
     display: block;
 }
 
+button {
+    outline: none !important;
+    border: none !important;
+    background: #022c43 !important;
+}
+
+/* .ant-popover-content{
+    background: #ffd700 !important;
+}
+.ant-popover-inner-content{
+    background: #ffd700 !important;
+}
+
+
+.ant-popover-arrow-content{
+    background-color: #ffd700 !important;
+   
+   
+}
+.ant-popover-arrow-content span{
+    background-color: #ffd700 !important;
+   
+}
+
+.ant-popover-arrow-content span:before{
+    background-color: #a71919;
+    
+} */

@@ -17,7 +17,7 @@ import Carousel from 'react-elastic-carousel';
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 3},
+  { width: 768, itemsToShow:2},
   { width: 1200, itemsToShow: 3}
 ];
 const items=[
@@ -59,7 +59,7 @@ return(
     <div className='main'>
       <Carousel breakPoints={breakPoints} className='carosel'>
            {items.map((item)=> {
-          return <Video key={item.id} item={item}/>
+          return <Video key={item.id} item={item} />
            })}
       </Carousel>
 

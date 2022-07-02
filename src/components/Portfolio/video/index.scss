@@ -1,21 +1,18 @@
 .item {
-    margin:0 50px;
+    margin: 0 200px !important;
+    padding: 10px !important;
 }
-
 
 .info {
     width: 450px;
     display: flex;
     justify-content: center;
-   
 }
 
 .icon {
     width: 40px;
     height: 40px;
     margin: 10px 10px;
-   
-  
 }
 
 .icon img {
@@ -37,7 +34,7 @@
     padding: 20px;
     position: relative;
     margin: 20px 0;
-    opacity: 0;
+    opacity: 0.2;
     transition: all 0.5 ease-in-out;
 }
 

@@ -26,6 +26,8 @@ import {
 
   
 function About() {
+
+  
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
