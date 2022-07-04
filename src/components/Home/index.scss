@@ -6,6 +6,7 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        //background-color:red;
     }
     h1 {
         color: #fff;
@@ -75,4 +76,18 @@
 
 .job {
     font-size: 45px;
+}
+// @media only screen and (max-width: 900px) {
+//     .text-zone {
+          
+//            width: 100% !important;
+//            left:15% !important;
+//           }
+//     }
+@media only screen and (max-width: 900px) {
+.text-zone {
+      
+       width: 100% !important;
+       left:15% !important;
+      }
 }

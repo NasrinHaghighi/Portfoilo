@@ -47,17 +47,16 @@ function About() {
                  idx={15}
                   />
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Blanditiis consectetur officia nobis vero atque rerum animi error ad odio pariatur laboriosam harum
-             voluptates quidem vitae similique, illum perferendis reprehenderit tempore!</p>
+        <p>I am a front-end developer able to build the front-end portion of
+           websites and web applications. I have the experience to create e-commercial
+            websites, with the possibility to select products by color, and size, apply discounts,
+             and add or remove from cart list and favorite list and registration form by validation.
+              also, I am able to work with API. also I made various portfolio websites.</p>
 
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Blanditiis consectetur officia nobis vero atque rerum animi error ad odio pariatur laboriosam harum
-             voluptates quidem vitae similique, illum perferendis reprehenderit tempore!</p>
+             <p>for this approach, I used JavaScript/ React /NextJs /Redux/React-Bootestarp/ 
+              MaterialUi/Ant Design / Animate.css and much more technology to make a perfect user experience.</p>
 
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Blanditiis consectetur officia nobis vero atque rerum animi error ad odio pariatur laboriosam harum
-             voluptates quidem vitae similique, illum perferendis reprehenderit tempore!</p>
+
     </div>
     <div className="skills">
       

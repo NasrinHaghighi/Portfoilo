@@ -1,7 +1,7 @@
-.item {
-    margin: 0 200px !important;
-    padding: 10px !important;
-}
+ .item {
+   margin: 0 200px !important;
+     padding: 10px !important;
+ }
 
 .info {
     width: 450px;
@@ -24,53 +24,58 @@
 .icon img:hover {
     transform: scale(1.2);
 }
+@media only screen and (max-width: 600px) {
+   .item {
+  
+    }
+  }
 
 ///////////more info/////@at-root
-.moreInfo {
-    width: 450px;
-    height: auto;
-    background-color: #ffd700;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    margin: 20px 0;
-    opacity: 0.2;
-    transition: all 0.5 ease-in-out;
-}
+// .moreInfo {
+//     width: 450px;
+//     height: auto;
+//     background-color: #ffd700;
+//     color: #fff;
+//     padding: 20px;
+//     position: relative;
+//     margin: 20px 0;
+//     opacity: 0.2;
+//     transition: all 0.5 ease-in-out;
+// }
 
-.moreInfo::after {
-    content: " ";
-    position: absolute;
-    left: 36%;
-    top: -15px;
-    border-top: none;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 15px solid #ffd700;
-}
+// .moreInfo::after {
+//     content: " ";
+//     position: absolute;
+//     left: 36%;
+//     top: -15px;
+//     border-top: none;
+//     border-right: 15px solid transparent;
+//     border-left: 15px solid transparent;
+//     border-bottom: 15px solid #ffd700;
+// }
 
-.activeInfo {
-    width: 450px;
-    height: auto;
-    background-color: #ffd700;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    margin: 20px 0;
-    opacity: 1;
-    animation: fadeInUp 1s;
-    animation-fill-mode: forwards;
-}
+// .activeInfo {
+//     width: 450px;
+//     height: auto;
+//     background-color: #ffd700;
+//     color: #fff;
+//     padding: 20px;
+//     position: relative;
+//     margin: 20px 0;
+//     opacity: 1;
+//     animation: fadeInUp 1s;
+//     animation-fill-mode: forwards;
+// }
 
-.activeInfo::after {
-    content: " ";
-    position: absolute;
-    left: 36%;
-    top: -15px;
-    border-top: none;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 15px solid #ffd700;
-    animation: fadeInUp 1s;
-    animation-fill-mode: forwards;
-}
+// .activeInfo::after {
+//     content: " ";
+//     position: absolute;
+//     left: 36%;
+//     top: -15px;
+//     border-top: none;
+//     border-right: 15px solid transparent;
+//     border-left: 15px solid transparent;
+//     border-bottom: 15px solid #ffd700;
+//     animation: fadeInUp 1s;
+//     animation-fill-mode: forwards;
+// }

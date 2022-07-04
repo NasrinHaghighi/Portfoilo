@@ -21,8 +21,13 @@
 }
 
 .video {
-    margin: 0 20px;
+   background-color:red;
+   padding:0 100px;
 }
+@media only screen and (max-width: 900px) {
+
+   }
+ 
 
 // .info {
 //     width: 450px;

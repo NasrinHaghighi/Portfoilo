@@ -16,9 +16,10 @@ import Carousel from 'react-elastic-carousel';
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow:2},
-  { width: 1200, itemsToShow: 3}
+    { width: 750, itemsToShow: 2 },
+    { width: 900, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
+   
 ];
 const items=[
   {id:1, src:'/video/beauty-1.mp4', dis:'ggagdgasgdg', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
@@ -54,19 +55,13 @@ return(
               idx={15}
             />
           </h1>
-         
-        </div>
+                 </div>
     <div className='main'>
       <Carousel breakPoints={breakPoints} className='carosel'>
            {items.map((item)=> {
           return <Video key={item.id} item={item} />
            })}
       </Carousel>
-
-    
-    
- 
-   
     </div>
   
   </div>

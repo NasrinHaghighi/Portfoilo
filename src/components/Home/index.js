@@ -12,6 +12,29 @@ function Home() {
 
     const [letterClass, setLetterClass] = useState('text-animate')
 
+
+  //   const [activeMenu, setActiveMenu] = useState(true);
+  // const [screenSize, setScreenSize] = useState(undefined);
+
+  // useEffect(() => {
+  //   const handleResize = () => setScreenSize(window.innerWidth);
+
+  //   window.addEventListener('resize', handleResize);
+
+  //   handleResize();
+
+  //   return () => window.removeEventListener('resize', handleResize);
+  // }, []);
+
+  // useEffect(() => {
+  //   if (screenSize <= 1000) {
+  //     setActiveMenu(false);
+  //   } else {
+  //     setActiveMenu(true);
+  //   }
+  // }, [screenSize]);
+
+
     const nameArray = ['N', 'a', 's', 'r', 'i',  'n',' ', 'H', 'a', 'g', 'h', 'i', 'g', 'h', 'i']
     const jobArray = [
       'w',
@@ -42,12 +65,7 @@ function Home() {
     <div className='conatiner home-page'>
          <div className="text-zone">
              <h1>
-             {/* <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
-            <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span> */}
-                 <br/>
+               <br/>
                
               
                  <AnimatedLetters

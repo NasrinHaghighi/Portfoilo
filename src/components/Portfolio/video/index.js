@@ -32,12 +32,8 @@ const content = (
     </Popover>
  
       <Button className='icon'><a href={item.link}>  <img src={git}/></a></Button>
+        </div>
 
-    
-      {/* //<div className='icon'><img src={info} /></div> 
-     <div className='icon'><a href={item.link}>  <img src={git}/></a></div>  */}
-      </div>
-      {/* <div className={'moreInfo'}>{item.dis}</div> */}
 </div >
 
 
