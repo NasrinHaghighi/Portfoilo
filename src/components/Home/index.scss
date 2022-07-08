@@ -89,5 +89,20 @@
       
        width: 100% !important;
        left:15% !important;
+        h1{
+          font-size:56px !important;
+           }
       }
+     
 }
+@media only screen and (max-width:600px) {
+    .text-zone {
+          
+           width: 100% !important;
+           left:15% !important;
+            h1{
+              font-size:56px !important;
+               }
+          }
+         
+    }

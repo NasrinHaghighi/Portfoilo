@@ -16,17 +16,18 @@ import Carousel from 'react-elastic-carousel';
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-    { width: 750, itemsToShow: 2 },
-    { width: 900, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+  { width: 550, itemsToShow: 1, itemsToScroll: 1 },
+  { width: 768, itemsToShow: 1 },
+  { width: 900, itemsToShow:2 },
+  { width: 1200, itemsToShow:3 }
    
 ];
 const items=[
-  {id:1, src:'/video/beauty-1.mp4', dis:'ggagdgasgdg', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
-  {id:2, src:'/video/showsApp.mp4', dis:'rrrrrrrrr', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
-  {id:3, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
-  {id:4, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
-  {id:5, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', likn:'https://github.com/NasrinHaghighi/Beauty_shop'},
+  {id:1, src:'/video/beauty-1.mp4', dis:'Technologies: Next Js /Redux /React-bootestarp/ material Ui', link:'https://github.com/NasrinHaghighi/Beauty_shop'},
+  {id:2, src:'/video/showsApp.mp4', dis:'Technologies: Next Js /Redux Toolkit /React-bootestarp/ material Ui', link:'https://github.com/NasrinHaghighi/shows-shop-app'},
+  {id:3, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', link:'https://github.com/NasrinHaghighi/Beauty_shop'},
+  {id:4, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', link:'https://github.com/NasrinHaghighi/Beauty_shop'},
+  {id:5, src: '/video/showsApp.mp4', dis:'/video/showsApp.mp4', link:'https://github.com/NasrinHaghighi/Beauty_shop'},
 ]
 function Portfolio() {
 

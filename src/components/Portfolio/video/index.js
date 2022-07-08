@@ -31,7 +31,7 @@ const content = (
       <Button className='icon'><img src={info} /></Button>
     </Popover>
  
-      <Button className='icon'><a href={item.link}>  <img src={git}/></a></Button>
+      <Button className='icon'><a href={item.link}><img src={git}/></a></Button>
         </div>
 
 </div >

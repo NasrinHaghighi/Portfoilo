@@ -74,7 +74,7 @@ function Home() {
                  idx={15}
                   />
                      <br />
-                     <br />
+                  
                 <AnimatedLetters
                  letterClass={letterClass}
                 strArray={jobArray}
